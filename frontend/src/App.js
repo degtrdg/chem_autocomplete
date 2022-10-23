@@ -11,7 +11,7 @@ function App() {
   const handleClick = () => {
     if (value !== "") {
       axios
-        .post("http://127.0.0.1:5000/predict", {
+        .post("https://chem-autocomplete.herokuapp.com/prediction", {
           sentence: value,
         })
         .then((response) => {
@@ -115,7 +115,7 @@ function App() {
               smallest SMILES string.
             </div>
             <div>This is an example of how it can be used:</div>
-            <img src="./ex_prediction.png" class="w-1/2"></img>
+            <img src={require("./ex_prediction.png")} class="w-1/2"></img>
           </div>
         </div>
       </div>

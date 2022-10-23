@@ -5,14 +5,10 @@ import torch.nn.functional as F
 from torch.distributions import Categorical
 from rdkit import Chem
 from flask import Flask, jsonify, request
-from flask import send_file
 from rdkit import RDLogger  
-from rdkit.Chem.Draw import IPythonConsole # may be needed for viewing of molecules in notebook
 RDLogger.DisableLog('rdApp.*') 
 from io import BytesIO
 import base64
-
-
 
 app = Flask(__name__)
 CORS(app)
