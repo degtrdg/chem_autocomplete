@@ -11,7 +11,7 @@ function App() {
   const handleClick = () => {
     if (value !== "") {
       axios
-        .post("https://chem-autocomplete.herokuapp.com/prediction", {
+        .post("https://chem-autocomplete.herokuapp.com/predict", {
           sentence: value,
         })
         .then((response) => {

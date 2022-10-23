@@ -4,6 +4,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.distributions import Categorical
 from rdkit import Chem
+from rdkit.Chem import Draw
 from flask import Flask, jsonify, request
 from rdkit import RDLogger  
 RDLogger.DisableLog('rdApp.*') 
@@ -18,12 +19,13 @@ def predict_sentiment():
     data = request.get_json()
     sentences = prediction(data['sentence'])
 
-    b = BytesIO(Chem.Draw.MolsToGridImage(
-          [Chem.MolFromSmiles(x) for x in sentences]
-      ).data)
+    buffered = BytesIO()
 
-    b.seek(0)
-    img = base64.b64encode(b.read()).decode('utf-8')
+    Draw.MolsToGridImage(
+          [Chem.MolFromSmiles(x) for x in sentences]
+      ).save(buffered, format="PNG")
+
+    img = base64.b64encode(buffered.getvalue()).decode('utf-8')
 
     return jsonify({'image': img})
 
