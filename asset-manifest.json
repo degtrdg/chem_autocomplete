@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/chem_autocomplete/static/css/main.02e321fe.css",
-    "main.js": "/chem_autocomplete/static/js/main.1618a5d0.js",
+    "main.css": "/chem_autocomplete/static/css/main.3cd97cee.css",
+    "main.js": "/chem_autocomplete/static/js/main.cc6c94f9.js",
     "static/js/787.cda612ba.chunk.js": "/chem_autocomplete/static/js/787.cda612ba.chunk.js",
     "static/media/ex_prediction.png": "/chem_autocomplete/static/media/ex_prediction.1c7e637c3478760eb659.png",
     "index.html": "/chem_autocomplete/index.html",
-    "main.02e321fe.css.map": "/chem_autocomplete/static/css/main.02e321fe.css.map",
-    "main.1618a5d0.js.map": "/chem_autocomplete/static/js/main.1618a5d0.js.map",
+    "main.3cd97cee.css.map": "/chem_autocomplete/static/css/main.3cd97cee.css.map",
+    "main.cc6c94f9.js.map": "/chem_autocomplete/static/js/main.cc6c94f9.js.map",
     "787.cda612ba.chunk.js.map": "/chem_autocomplete/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.02e321fe.css",
-    "static/js/main.1618a5d0.js"
+    "static/css/main.3cd97cee.css",
+    "static/js/main.cc6c94f9.js"
   ]
 }
