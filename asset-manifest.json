@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/chem_autocomplete/static/css/main.7feb29ba.css",
-    "main.js": "/chem_autocomplete/static/js/main.2d324678.js",
+    "main.js": "/chem_autocomplete/static/js/main.349d3568.js",
     "static/js/787.cda612ba.chunk.js": "/chem_autocomplete/static/js/787.cda612ba.chunk.js",
     "static/media/ex_prediction.png": "/chem_autocomplete/static/media/ex_prediction.1c7e637c3478760eb659.png",
     "index.html": "/chem_autocomplete/index.html",
     "main.7feb29ba.css.map": "/chem_autocomplete/static/css/main.7feb29ba.css.map",
-    "main.2d324678.js.map": "/chem_autocomplete/static/js/main.2d324678.js.map",
+    "main.349d3568.js.map": "/chem_autocomplete/static/js/main.349d3568.js.map",
     "787.cda612ba.chunk.js.map": "/chem_autocomplete/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7feb29ba.css",
-    "static/js/main.2d324678.js"
+    "static/js/main.349d3568.js"
   ]
 }
