@@ -13,7 +13,7 @@ function App() {
     if (value !== "") {
       setLoading(true);
       axios
-        .post("https://chem-autocomplete.herokuapp.com/predict", {
+        .post("http://degtrdg.pythonanywhere.com/predict", {
           sentence: value,
         })
         .then((response) => {
