@@ -13,7 +13,7 @@ function App() {
     if (value !== "") {
       setLoading(true);
       axios
-        .post("http://degtrdg.pythonanywhere.com/predict", {
+        .post("https://degtrdg.pythonanywhere.com/predict", {
           sentence: value,
         })
         .then((response) => {
